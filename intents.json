@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "patterns": ["hi", "Is anyone there?", "Hello", "Good day", "Whats up"],
          "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
          "context_set": ""
         },
@@ -17,6 +17,11 @@
         {"tag": "mission",
          "patterns": ["What is your purpose?", "What do you do?"],
          "responses": ["I am your assistant", "I am here to help you with your everyday life"],
+         "context_set": ""
+        },
+        {"tag": "feeling",
+         "patterns": ["How are you?", "Are you happy?", "Are you sad?"],
+         "responses": ["I can not feel", "I dont know, I am just code", "I can not feel emotions"],
          "context_set": ""
         }
    ]

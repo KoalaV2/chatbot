@@ -1,2 +1,2 @@
-model_checkpoint_path: "E:\\chatbot\\model.tflearn"
-all_model_checkpoint_paths: "E:\\chatbot\\model.tflearn"
+model_checkpoint_path: "/home/koala/chatbot/model.tflearn"
+all_model_checkpoint_paths: "/home/koala/chatbot/model.tflearn"
